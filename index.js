@@ -10,7 +10,7 @@ const passportSetup = require('./config/passport-setup');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors({credentials: true, origin: 'http://localhost'}));
+app.use(cors({credentials: true, origin: 'https://vedantjain0087.github.io/meark/'}));
 app.use(cookieSession({
 maxAge:24*60*60*1000,
 keys:['mysecret']
@@ -82,7 +82,7 @@ app.get('/google/redirect',passport.authenticate('google'), (req, res) => {
 // var text = utf8.decode(bytes);
 // console.log(text);
 //         console.log('Cookies2: ', req.cookies)
- res.redirect('http://localhost/meark_front/index.html#/dashboard');
+ res.redirect('https://vedantjain0087.github.io/meark/#/dashboard');
    
 });
 
