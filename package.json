@@ -8,15 +8,19 @@
   },
   "author": "",
   "license": "ISC",
-"dependencies": {
+  "dependencies": {
     "base-64": "^0.1.0",
     "body-parser": "^1.18.3",
     "cookie-session": "^2.0.0-beta.3",
+    "cors": "^2.8.4",
     "express-session": "^1.15.6",
     "form-data": "^2.3.2",
     "multer": "^1.3.1",
     "mysql": "^2.15.0",
     "node-unique-id-generator": "^0.1.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
+    "uniqid": "^5.0.3",
     "utf8": "^3.0.0"
   }
 }
